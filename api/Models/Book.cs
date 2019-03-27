@@ -12,6 +12,10 @@ namespace Fisher.Bookstore.Models
 
         public string ISBN { get; set; }
 
+        public DateTime PublishDate { get; set; }
+
+        public string Publisher { get; set; }
+
 
     }
 }
