@@ -4,7 +4,7 @@ namespace Fisher.Bookstore.Models
 {
     public class Book
     {
-        public int Id { get; set; } // shortcut to build a property: "prop" + tab
+        public int Id { get; set; } 
 
         public string Title { get; set; }
 
@@ -12,6 +12,6 @@ namespace Fisher.Bookstore.Models
 
         public string ISBN { get; set; }
 
-        public DateTime publicationDate { get; set; }
+
     }
 }
