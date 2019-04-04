@@ -1,11 +1,11 @@
-using System; 
+using System;
+using Fisher.Bookstore.Api;
 
-namespace Fisher.Bookstore.Models
-{
+namespace Fisher.Bookstore.Models{
+
     public class Book
     {
-        public int Id { get; set; } 
-
+        public int Id { get; set; }
         public string Title { get; set; }
 
         public string Author { get; set; }
@@ -16,6 +16,11 @@ namespace Fisher.Bookstore.Models
 
         public string Publisher { get; set; }
 
-
+        public void ChangePublicationDate(DateTime dateTime)
+        {
+            this.PublishDate = dateTime;
+        }
     }
+
+
 }
